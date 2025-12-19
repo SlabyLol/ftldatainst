@@ -1,15 +1,15 @@
 @echo off
 :: =============================================
-:: FTL Installer - Copyright SlabyLol
+:: STL Installer - Copyright SlabyLol
 :: ONLY WORKS WITH ADMIN
 :: =============================================
 
 echo ================================
 echo FTL Installer
-echo Makes .ftl files work like .bat
+echo Makes .stl files work like .bat
 
-assoc .ftl=ftlfile
-ftype ftlfile="%SystemRoot%\System32\cmd.exe" /c "%1" %*
+assoc .stl=stlfile
+ftype stlfile="%SystemRoot%\System32\cmd.exe" /c "%1" %*
 
 echo.
 echo It is now ready!
